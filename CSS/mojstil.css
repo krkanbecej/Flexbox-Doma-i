@@ -1,0 +1,236 @@
+/* ****************** Global styles**********/
+
+ body{
+      box-sizing: border-box;
+      height: 100%;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 16px;
+      color: #1F1F1F;
+      background-color: #fff;
+      line-height: 1.4;
+
+}
+a:hover {
+         color: #f90;
+         text-decoration: none;
+}
+  a {
+    color: #fff;
+    text-decoration: none;
+}
+  h2, p{
+        padding: 0px 15px;
+        margin-left: 0px;
+        margin-top: 0px;
+}
+  p{
+    color: #ccc;
+  }
+/* ********   Layout      +++++++++ */
+.navigacija{
+            background-color: black;
+            width: 100%;
+            display: flex;
+}
+
+header{
+       background-image: url("../slike/web-dizajn.jpg");
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       width: 100%;
+       height:510px;
+       margin:0px;
+}
+.header-tekst{
+              background-color: orange;
+              width: 520px;
+              height:auto;
+}
+
+.container {
+            width: 1170px;
+            margin: 0 auto;
+            padding: 0 15px;
+}
+.row1{
+     display: flex;
+     justify-content: space-between;
+}
+.row2{
+      display: flex;
+}
+footer{
+       background-color: #333;
+       margin-top: 200px;
+       height: auto;
+
+}
+  /* *******    Specific styles      ************ */
+
+section {
+         width: 310px;
+         height: auto;
+         background-color: #333;
+         color: #fff;
+         border: 15px solid #fff;
+         padding: 45px 15px 20px;
+         position: relative;
+}
+.kruzic{
+        background-color: orange;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 15px solid #fff;
+        position:absolute;
+        right:15px;
+        top: -57px;
+        z-index: 50;
+}
+.navigacija img{
+               padding:15px 100px;
+}
+.nav{
+    display: flex;
+}
+nav {
+      margin-top: 27px;
+      margin-right: 5px;
+}
+ nav a{
+      color: #fff;
+      text-transform: uppercase;
+}
+nav ul li{
+        display: flex;
+        border-right: 1px solid #fff;
+        padding: 0 10px;
+        direction:none;
+}
+nav ul{
+        display: flex;
+}
+.header-tekst{
+          padding: 40px;
+          text-align: right;
+          color: #fff;
+          opacity: 0.9;
+          filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+article a{
+    color: orange;
+    text-decoration: underline;
+}
+article p{
+    margin: 0px;
+    padding: 0px 30px;
+}
+.art{
+    text-align: justify;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.dugme{
+     display: flex;
+     font-size: 16px;
+     text-decoration: none;
+     border: 1px solid #f90;
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 5px;
+}
+.dugme a{
+         text-decoration: none;
+}
+.dugme:hover {
+             background-color: #f90;
+}
+.dugme:hover a{
+             background-color: #f90;
+             color: #fff;
+  }
+.dugme a:hover{
+              background-color: orange;
+              color: #fff;
+              display: inline-block;
+}
+  .podnaslov{
+             color: orange;
+}
+
+footer p{
+        font-size: 12px;
+        position: relative;
+        top: -50px;
+}
+.nav-holder{
+           display: flex;
+           justify-content: center;
+           margin: 0px;
+}
+.foot-text{
+          display: flex;
+          margin: 0px;
+          justify-content: space-around;
+
+}
+aside{
+      border: 15px solid #fff;
+      box-shadow: 0px 0px 5px #ccc;
+}
+.opis{
+      padding: 15px;
+}
+.foot-nav{
+         display: flex;
+         position: relative;
+         top: -50px;
+}
+.foot-nav ul{
+            display: flex;
+
+}
+.foot-nav li{
+            display: flex;
+            margin-right: 10px;
+}
+
+.foot-nav li a{
+               width: 40px;
+               height: 40px;
+               border: 10px solid #fff;
+               box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+               display: block;
+               border-radius: 50%;
+               text-indent: -9999px;
+               background-image: url("../slike/soc-net-sprite.png");
+               transition: all .3s;
+}
+.facebook-link {
+               background-color: #3c5a98;
+}
+.facebook-link:hover {
+                      background-position: 0 -40px;
+}
+.twitter-link {
+              background-color: #00adee;
+              background-position: -40px 0;
+}
+.twitter-link:hover {
+                     background-position: -40px -40px;
+}
+.linkedin-link {
+                background-color: #069;
+                background-position: -80px 0;
+}
+.linkedin-link:hover {
+          background-position: -80px -40px;
+}
+.google-link {
+              background-color: #d84937;
+              background-position: -120px 0;
+}
+.google-link:hover {
+              background-position: -120px -40px;}
